@@ -47,3 +47,9 @@ html {
 .btn-outline-primary{
   margin-right: 0.5%;
 }
+a{
+  color: black;
+}
+.p-2 .text-dark{
+  font-size: 3vw; /* 3% of viewport width */
+} 
