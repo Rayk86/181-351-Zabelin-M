@@ -42,8 +42,8 @@ html {
 }
 
 .logo {
-  width:10%;
-   height:10%;
+  width:20%;
+   height:20%;
 }
 .btn-outline-primary{
   margin-right: 0.5%;
@@ -70,4 +70,9 @@ font-size: 14px;
 border-radius: 10px;
 border-spacing: 0;  
 }
-.table{
+.thx{
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  background-color: #5998ff; 
+}
