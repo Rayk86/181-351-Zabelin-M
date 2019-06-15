@@ -62,8 +62,10 @@
       <label for="period_y_year1" onclick="changePeriod1()">При оплате за год</label><br>
       <input type="radio" name="period[Line]" value="ty" onchange="changePeriod1()" id="period_ty_year1" checked>
       <label for="period_ty_year1" onclick="changePeriod1()">При оплате за 3 года</label>
-      <h6 id="1" class="price">83руб.</h6>
-      <p id="11" class="adv2">Экономия: 400 руб.<br>Один домен в подарок: .ru</p>
+      <h6 id="1" class="price">139руб/мес.</h6>
+      <p id="11" class="adv2">Экономия: 42 руб.</p>
+      <p id="111" class="adv3">Экономия: 334 руб.<br>Один домен в подарок: .ru, .рф</p>
+      <p id="1111" class="adv4">Экономия: 2002 руб.<br>Четыре домена в подарок: .ru, .рф</p>
         </ul>
           <button type="button" class="btn btn-lg btn-block btn-primary">Выбрать</button>
       </div>
@@ -87,8 +89,10 @@
       <label for="period_y_year2" onclick="changePeriod2()">При оплате за год</label><br>
       <input type="radio" name="period[Host-A]" value="ty" onchange="changePeriod2()" id="period_ty_year2" checked>
       <label for="period_ty_year2" onclick="changePeriod2()">При оплате за 3 года</label>
-      <h6 id="2" class="price">95руб.</h6>
-      <p id="22" class="adv2">Экономия: 600 руб.<br>Один домен в подарок: .ru</p>
+      <h6 id="2" class="price">96руб.</h6>
+      <p id="22" class="adv2">Экономия: 48 руб.</p>
+      <p id="222" class="adv3">Экономия: 382 руб.<br>Один домен в подарок: .ru, .рф</p>
+      <p id="2222" class="adv4">Экономия: 2290 руб.<br>Четыре домена в подарок: .ru, .рф</p>
         </ul>
         <button type="button" class="btn btn-lg btn-block btn-primary">Выбрать</button>
       </div>
@@ -112,8 +116,10 @@
       <label for="period_y_year3" onclick="changePeriod3()">При оплате за год</label><br>
       <input type="radio" name="period[Host-A]" value="ty" onchange="changePeriod3()" id="period_ty_year3" checked>
       <label for="period_ty_year3" onclick="changePeriod3()">При оплате за 3 года</label>
-      <h6 id="3" class="price">179руб.</h6>
-      <p id="33" class="adv2">Экономия: 800 руб.<br>Один домен в подарок: .ru</p>
+      <h6 id="3" class="price">299руб.</h6>
+      <p id="33" class="adv2">Экономия: 90 руб.</p>
+      <p id="333" class="adv3">Экономия: 718 руб.<br>Один домен в подарок: .ru, .рф</p>
+      <p id="3333" class="adv4">Экономия: 4279 руб.<br>Четыре домена в подарок: .ru, .рф</p>
         </ul>
         <button type="button" class="btn btn-lg btn-block btn-primary">Выбрать</button>
       </div>
@@ -121,60 +127,83 @@
 <script type="text/javascript">
   function changePeriod1(){
     if(document.getElementById('period_m_year1').checked==true){
-      document.getElementById('1').innerHTML='83руб/мес.';
+      document.getElementById('1').innerHTML='139руб/мес.';
       document.getElementById('11').style.display='none';
+      document.getElementById('111').style.display='none';
+      document.getElementById('1111').style.display='none';
     } 
     if (document.getElementById('period_py_year1').checked==true) {
-      document.getElementById('1').innerHTML='75руб/мес.';
-      document.getElementById('11').style.display='none';
+      document.getElementById('1').innerHTML='132руб/мес.';
+           document.getElementById('11').style.display='block';
+      document.getElementById('111').style.display='none';
+      document.getElementById('1111').style.display='none';
     }
         if (document.getElementById('period_y_year1').checked==true) {
-      document.getElementById('1').innerHTML='73руб/мес.';
-      document.getElementById('11').style.display='block';
-    }
+      document.getElementById('1').innerHTML='111руб/мес.';
+            document.getElementById('11').style.display='none';
+      document.getElementById('111').style.display='block';
+      document.getElementById('1111').style.display='none';    }
         if (document.getElementById('period_ty_year1').checked==true) {
-      document.getElementById('1').innerHTML='69руб/мес.';
-      document.getElementById('11').style.display='block';
+      document.getElementById('1').innerHTML='83руб/мес.';
+      document.getElementById('11').style.display='none';
+      document.getElementById('111').style.display='none';
+      document.getElementById('1111').style.display='block';
     } 
   }
    
    function changePeriod2(){
 
        if(document.getElementById('period_m_year2').checked==true){
-      document.getElementById('2').innerHTML='95руб/мес.';
+      document.getElementById('2').innerHTML='159руб/мес.';
       document.getElementById('22').style.display='none';
+      document.getElementById('222').style.display='none';
+      document.getElementById('2222').style.display='none';
 
     } 
     if (document.getElementById('period_py_year2').checked==true) {
-      document.getElementById('2').innerHTML='91руб/мес.';
+      document.getElementById('2').innerHTML='151руб/мес.';
       document.getElementById('22').style.display='block';
+      document.getElementById('222').style.display='none';
+      document.getElementById('2222').style.display='none';
     }
         if (document.getElementById('period_y_year2').checked==true) {
-      document.getElementById('2').innerHTML='88руб/мес.';
-      document.getElementById('22').style.display='block';
+      document.getElementById('2').innerHTML='128руб/мес.';
+      document.getElementById('22').style.display='none';
+      document.getElementById('222').style.display='block';
+      document.getElementById('2222').style.display='none';
     }
         if (document.getElementById('period_ty_year2').checked==true) {
-      document.getElementById('2').innerHTML='86руб/мес.';
-      document.getElementById('22').style.display='block';
+      document.getElementById('2').innerHTML='96руб/мес.';
+      document.getElementById('22').style.display='none';
+      document.getElementById('222').style.display='none';
+      document.getElementById('2222').style.display='block';
     }
   }
     function changePeriod3(){
        if(document.getElementById('period_m_year3').checked==true){
-      document.getElementById('3').innerHTML='179руб/мес.';
+      document.getElementById('3').innerHTML='299руб/мес.';
       document.getElementById('33').style.display='none';
+      document.getElementById('333').style.display='none';
+      document.getElementById('3333').style.display='none';
 
     } 
     if (document.getElementById('period_py_year3').checked==true) {
-      document.getElementById('3').innerHTML='170руб/мес.';
+      document.getElementById('3').innerHTML='284руб/мес.';
       document.getElementById('33').style.display='block';
+      document.getElementById('333').style.display='none';
+      document.getElementById('3333').style.display='none';
     }
         if (document.getElementById('period_y_year3').checked==true) {
-      document.getElementById('3').innerHTML='160руб/мес.';
-      document.getElementById('33').style.display='block';
+      document.getElementById('3').innerHTML='240руб/мес.';
+      document.getElementById('33').style.display='none';
+      document.getElementById('333').style.display='block';
+      document.getElementById('3333').style.display='none';
     }
         if (document.getElementById('period_ty_year3').checked==true) {
-      document.getElementById('3').innerHTML='150руб/мес.';
-      document.getElementById('33').style.display='block';
+      document.getElementById('3').innerHTML='180руб/мес.';
+      document.getElementById('33').style.display='none';
+      document.getElementById('333').style.display='none';
+      document.getElementById('3333').style.display='block';
     }
   }
 
