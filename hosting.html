@@ -104,15 +104,15 @@
           <li>1 сайт и ∞ БД.</li>
           <li> ∞ псевдонимов</li>
           <li> ∞ трафик</li>
-      <input type="radio" name="period[Host-B]]" value="m" onchange="changePeriod3()" id="period_m_year3">
+ <input type="radio" name="period[Host-A]" value="m" onchange="changePeriod3()" id="period_m_year3">
       <label for="period_m_year3" onclick="changePeriod3()">Оплата помесячно</label><br>
-      <input type="radio" name="period[Host-B]" value="py" onchange="changePeriod3()" id="period_py_year3" checked>
+      <input type="radio" name="period[Host-A]" value="py" onchange="changePeriod3()" id="period_py_year3" checked>
       <label for="period_py_year3" onclick="changePeriod3()">При оплате за пол года год</label><br>
-      <input type="radio" name="period[Host-B]" value="y" onchange="changePeriod3()" id="period_y_year3" checked>
+      <input type="radio" name="period[Host-A]" value="y" onchange="changePeriod3()" id="period_y_year3" checked>
       <label for="period_y_year3" onclick="changePeriod3()">При оплате за год</label><br>
-      <input type="radio" name="period[Host-B]" value="ty" onchange="changePeriod3()" id="period_ty_year3" checked>
+      <input type="radio" name="period[Host-A]" value="ty" onchange="changePeriod3()" id="period_ty_year3" checked>
       <label for="period_ty_year3" onclick="changePeriod3()">При оплате за 3 года</label>
-      <h6 id="3" class="price">95руб.</h6>
+      <h6 id="3" class="price">179руб.</h6>
       <p id="33" class="adv2">Экономия: 800 руб.<br>Один домен в подарок: .ru</p>
         </ul>
         <button type="button" class="btn btn-lg btn-block btn-primary">Выбрать</button>
@@ -137,7 +137,7 @@
       document.getElementById('11').style.display='block';
     } 
   }
-   /* Второй блок */
+   
    function changePeriod2(){
 
        if(document.getElementById('period_m_year2').checked==true){
@@ -159,24 +159,25 @@
     }
   }
     function changePeriod3(){
-             if(document.getElementById('period_m_year3').checked==true){
-      document.getElementById('3').innerHTML='95руб/мес.';
+       if(document.getElementById('period_m_year3').checked==true){
+      document.getElementById('3').innerHTML='179руб/мес.';
       document.getElementById('33').style.display='none';
 
     } 
     if (document.getElementById('period_py_year3').checked==true) {
-      document.getElementById('3').innerHTML='91руб/мес.';
+      document.getElementById('3').innerHTML='170руб/мес.';
       document.getElementById('33').style.display='block';
     }
         if (document.getElementById('period_y_year3').checked==true) {
-      document.getElementById('3').innerHTML='88руб/мес.';
+      document.getElementById('3').innerHTML='160руб/мес.';
       document.getElementById('33').style.display='block';
     }
         if (document.getElementById('period_ty_year3').checked==true) {
-      document.getElementById('3').innerHTML='86руб/мес.';
+      document.getElementById('3').innerHTML='150руб/мес.';
       document.getElementById('33').style.display='block';
+    }
   }
-}
+
   </script>
   <footer class="pt-4 my-md-5 pt-md-5 border-top">
     <div class="row">
