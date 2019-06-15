@@ -45,46 +45,139 @@
   <div class="card-deck mb-3 text-center">
     <div class="card mb-4 shadow-sm">
       <div class="card-header">
-        <h4 class="my-0 font-weight-normal">Хостинг и серверы</h4>
+        <h4 class="my-0 font-weight-normal">Host-Lite</h4>
       </div>
       <div class="card-body">
-        <h1 class="card-title pricing-card-title">От 91 руб. <small class="text-muted">/ мес.</small></h1>
+        <h1 class="card-title pricing-card-title">От 83 руб. <small class="text-muted">/ мес.</small></h1>
         <ul class="list-unstyled mt-3 mb-4">
-          <li>Надёжный классический и VIP хостинг</li>
-          <li> VPS с SSD+HDD и SSD носителями</li>
-          <li> Dedicated. Домены в подарок.</li>
+          <li>7ГБ SSD </li>
+          <li> 15 сайтов</li>
+          <li> ∞ псевдонимов</li>
+          <li> ∞ трафик</li>
+      <input type="radio" name="period[Line]" value="m" onchange="changePeriod1()" id="period_m_year1">
+      <label for="period_m_year1" onclick="changePeriod1()">Оплата помесячно</label><br>
+      <input type="radio" name="period[Line]" value="py" onchange="changePeriod1()" id="period_py_year1" checked>
+      <label for="period_py_year1" onclick="changePeriod1()">При оплате за пол года год</label><br>
+      <input type="radio" name="period[Line]" value="y" onchange="changePeriod1()" id="period_y_year1" checked>
+      <label for="period_y_year1" onclick="changePeriod1()">При оплате за год</label><br>
+      <input type="radio" name="period[Line]" value="ty" onchange="changePeriod1()" id="period_ty_year1" checked>
+      <label for="period_ty_year1" onclick="changePeriod1()">При оплате за 3 года</label>
+      <h6 id="1" class="price">83руб.</h6>
+      <p id="11" class="adv2">Экономия: 400 руб.<br>Один домен в подарок: .ru</p>
         </ul>
-        <button type="button" class="btn btn-lg btn-block btn-primary">Подробнее</button>
+          <button type="button" class="btn btn-lg btn-block btn-primary">Выбрать</button>
       </div>
     </div>
     <div class="card mb-4 shadow-sm">
       <div class="card-header">
-        <h4 class="my-0 font-weight-normal">SSL-сертификаты</h4>
+        <h4 class="my-0 font-weight-normal">Host-A</h4>
       </div>
       <div class="card-body">
-        <h1 class="card-title pricing-card-title">от 1099 руб. <small class="text-muted">/ мес.</small></h1>
+        <h1 class="card-title pricing-card-title">от 95 руб. <small class="text-muted">/ мес.</small></h1>
         <ul class="list-unstyled mt-3 mb-4">
-          <li>Гарантия статуса сайта </li>
-          <li>Безопасность передаваемых данных.</li>
-          <li> Незаменимо для e-commerce.</li>
+          <li>7ГБ SSD  </li>
+          <li>1 сайт и ∞ БД.</li>
+          <li> ∞ псевдонимов</li>
+          <li> ∞ трафик</li>
+      <input type="radio" name="period[Host-A]" value="m" onchange="changePeriod2()" id="period_m_year2">
+      <label for="period_m_year2" onclick="changePeriod2()">Оплата помесячно</label><br>
+      <input type="radio" name="period[Host-A]" value="py" onchange="changePeriod2()" id="period_py_year2" checked>
+      <label for="period_py_year2" onclick="changePeriod2()">При оплате за пол года год</label><br>
+      <input type="radio" name="period[Host-A]" value="y" onchange="changePeriod2()" id="period_y_year2" checked>
+      <label for="period_y_year2" onclick="changePeriod2()">При оплате за год</label><br>
+      <input type="radio" name="period[Host-A]" value="ty" onchange="changePeriod2()" id="period_ty_year2" checked>
+      <label for="period_ty_year2" onclick="changePeriod2()">При оплате за 3 года</label>
+      <h6 id="2" class="price">95руб.</h6>
+      <p id="22" class="adv2">Экономия: 600 руб.<br>Один домен в подарок: .ru</p>
         </ul>
-        <button type="button" class="btn btn-lg btn-block btn-primary">Подробнее</button>
+        <button type="button" class="btn btn-lg btn-block btn-primary">Выбрать</button>
       </div>
     </div>
     <div class="card mb-4 shadow-sm">
       <div class="card-header">
-        <h4 class="my-0 font-weight-normal">Автоматическое SEO-продвижение</h4>
+        <h4 class="my-0 font-weight-normal">Host-B</h4>
       </div>
       <div class="card-body">
-        <h1 class="card-title pricing-card-title">от 109 руб. <small class="text-muted">/ мес.</small></h1>
+        <h1 class="card-title pricing-card-title">от 179 руб. <small class="text-muted">/ мес.</small></h1>
         <ul class="list-unstyled mt-3 mb-4">
-          <p>Управление ав­то­ма­ти­зи­ро­ван­ным про­дви­же­ни­ем в поисковых системах.</p>
+          <li>25ГБ SSD  </li>
+          <li>1 сайт и ∞ БД.</li>
+          <li> ∞ псевдонимов</li>
+          <li> ∞ трафик</li>
+      <input type="radio" name="period[Host-B]]" value="m" onchange="changePeriod3()" id="period_m_year3">
+      <label for="period_m_year3" onclick="changePeriod3()">Оплата помесячно</label><br>
+      <input type="radio" name="period[Host-B]" value="py" onchange="changePeriod3()" id="period_py_year3" checked>
+      <label for="period_py_year3" onclick="changePeriod3()">При оплате за пол года год</label><br>
+      <input type="radio" name="period[Host-B]" value="y" onchange="changePeriod3()" id="period_y_year3" checked>
+      <label for="period_y_year3" onclick="changePeriod3()">При оплате за год</label><br>
+      <input type="radio" name="period[Host-B]" value="ty" onchange="changePeriod3()" id="period_ty_year3" checked>
+      <label for="period_ty_year3" onclick="changePeriod3()">При оплате за 3 года</label>
+      <h6 id="3" class="price">95руб.</h6>
+      <p id="33" class="adv2">Экономия: 800 руб.<br>Один домен в подарок: .ru</p>
         </ul>
-        <button type="button" class="btn btn-lg btn-block btn-primary">Подробнее</button>
+        <button type="button" class="btn btn-lg btn-block btn-primary">Выбрать</button>
       </div>
     </div>
-  </div>
+<script type="text/javascript">
+  function changePeriod1(){
+    if(document.getElementById('period_m_year1').checked==true){
+      document.getElementById('1').innerHTML='83руб/мес.';
+      document.getElementById('11').style.display='none';
+    } 
+    if (document.getElementById('period_py_year1').checked==true) {
+      document.getElementById('1').innerHTML='75руб/мес.';
+      document.getElementById('11').style.display='none';
+    }
+        if (document.getElementById('period_y_year1').checked==true) {
+      document.getElementById('1').innerHTML='73руб/мес.';
+      document.getElementById('11').style.display='block';
+    }
+        if (document.getElementById('period_ty_year1').checked==true) {
+      document.getElementById('1').innerHTML='69руб/мес.';
+      document.getElementById('11').style.display='block';
+    } 
+  }
+   /* Второй блок */
+   function changePeriod2(){
 
+       if(document.getElementById('period_m_year2').checked==true){
+      document.getElementById('2').innerHTML='95руб/мес.';
+      document.getElementById('22').style.display='none';
+
+    } 
+    if (document.getElementById('period_py_year2').checked==true) {
+      document.getElementById('2').innerHTML='91руб/мес.';
+      document.getElementById('22').style.display='block';
+    }
+        if (document.getElementById('period_y_year2').checked==true) {
+      document.getElementById('2').innerHTML='88руб/мес.';
+      document.getElementById('22').style.display='block';
+    }
+        if (document.getElementById('period_ty_year2').checked==true) {
+      document.getElementById('2').innerHTML='86руб/мес.';
+      document.getElementById('22').style.display='block';
+    }
+  }
+    function changePeriod3(){
+             if(document.getElementById('period_m_year3').checked==true){
+      document.getElementById('3').innerHTML='95руб/мес.';
+      document.getElementById('33').style.display='none';
+
+    } 
+    if (document.getElementById('period_py_year3').checked==true) {
+      document.getElementById('3').innerHTML='91руб/мес.';
+      document.getElementById('33').style.display='block';
+    }
+        if (document.getElementById('period_y_year3').checked==true) {
+      document.getElementById('3').innerHTML='88руб/мес.';
+      document.getElementById('33').style.display='block';
+    }
+        if (document.getElementById('period_ty_year3').checked==true) {
+      document.getElementById('3').innerHTML='86руб/мес.';
+      document.getElementById('33').style.display='block';
+  }
+}
+  </script>
   <footer class="pt-4 my-md-5 pt-md-5 border-top">
     <div class="row">
       <div class="col-12 col-md">
